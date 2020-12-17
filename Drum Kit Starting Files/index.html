@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <h3></h3>
+  <div class="set">
+    <button class="w drum" id="w1" onclick="playDrum('w')">w
+      <audio src="sounds/crash.mp3" id="w"></audio>
+    </button>
+    <button class="a drum" id="a1" onclick="playDrum('a')">a
+      <audio src="sounds/kick-bass.mp3" id="a"></audio>
+    </button>
+    <button class="s drum" id="s1" onclick="playDrum('s')">s
+      <audio src="sounds/snare.mp3" id="s"></audio>
+    </button>
+    <button class="d drum" id="d1" onclick="playDrum('d')">d
+      <audio src="sounds/tom-1.mp3" id="d"></audio>
+    </button>
+    <button class="j drum" id="j1" onclick="playDrum('j')">j
+      <audio src="sounds/tom-2.mp3" id="j"></audio>
+    </button>
+    <button class="k drum" id="k1" onclick="playDrum('k')">k
+      <audio src="sounds/tom-3.mp3" id="k"></audio>
+    </button>
+    <button class="l drum" id="l1" onclick="playDrum('l')">l
+      <audio src="sounds/tom-4.mp3" id="l"></audio>
+    </button>
+  </div>
+
+
+  <script src="index.js"></script>
+
+  <footer>
+    Made with ❤️ in Lagos.
+  </footer>
+</body>
+
+</html>
